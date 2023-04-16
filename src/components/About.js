@@ -26,7 +26,8 @@ const About = () => {
               An aspiring full-stack developer with a specialization in MERN stack. Enthusiastic, hard-working, and passionate about coding. With the ability to contribute toward the organizational goal, looking forward to working as a software developer, and developing skills in a challenging work environment.
               </div>
 
-              <div className="header__buttons myBtn">
+              <div className="header__buttons_myBtn">
+                <div>
                 <a
                   href="https://drive.google.com/file/d/1H4XVZa8C9XQUqxCri67P_44aizNtYYwt/view?usp=sharing"
                   target="_blank"
@@ -35,12 +36,15 @@ const About = () => {
                 >
                   View Resume
                 </a>
+                </div>
+                <div>
                 <a
                   href="https://drive.google.com/uc?export=download&id=1H4XVZa8C9XQUqxCri67P_44aizNtYYwt"
                   className="btn btn-outline"
                 >
                   Download Resume
                 </a>
+                </div>
               </div>
             </div>
           </div>
