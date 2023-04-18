@@ -104,6 +104,11 @@ const Project = () => {
         <div className="githubCalendar">
           <GitHubCalendar username="pintu8328" />
         </div>
+        <h1 className="githubCalendar">github statistics</h1>
+        <div className="githubCalendar">
+        <p>&nbsp;<img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=pintu8328&" alt="pintu8328" /></p>
+        </div>
+      
       </div>
     </div>
   );
