@@ -9,16 +9,16 @@ const Project = () => {
   const [state] = React.useState([
     {
       id: 1,
-      heading: "Questymes",
+      heading: "Questyme",
       img: "./images/questymes.png",
       link: "https://sparkly-tartufo-740f31.netlify.app",
       // repolink: "https://github.com/masai-builds/team-4-client-questymes/",
-      p: "Questymes is a time management app, by usig this app an user can book an appointments and also can see all interviews scheduled for him",
+      p: "The application provides the features of interview schedulling and one on one session.The highlighting fuctionalities are login/signUp ,calender booking, email notification and reminder and other required functionalities also.",
       tech: "TypeScript,chakra-ui,java,mySQL",
     },
     {
       id: 2,
-      heading: "Masaischool lms clone",
+      heading: "Masaischool LMS clone",
       img: "./images/lms.png",
       link: "https://learning-management-system-masai.netlify.app/",
       // repolink: "https://github.com/masai-builds/team-4-client",
