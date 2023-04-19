@@ -12,7 +12,7 @@ const Project = () => {
       heading: "Questymes",
       img: "./images/questymes.png",
       link: "https://sparkly-tartufo-740f31.netlify.app",
-      repolink: "https://github.com/masai-builds/team-4-client-questymes/",
+      // repolink: "https://github.com/masai-builds/team-4-client-questymes/",
       p: "Questymes is a time management app, by usig this app an user can book an appointments and also can see all interviews scheduled for him",
       tech: "TypeScript,chakra-ui,java,mySQL",
     },
@@ -21,7 +21,7 @@ const Project = () => {
       heading: "Masaischool lms clone",
       img: "./images/lms.png",
       link: "https://learning-management-system-masai.netlify.app/",
-      repolink: "https://github.com/masai-builds/team-4-client",
+      // repolink: "https://github.com/masai-builds/team-4-client",
       p: "An educational management system is being developed for Masai schools that provides full-stack web development training. Students can search for lectures and watch previous lectures and attend live lectures and submit assignments. and save lectures by bookmarking them. ",
       tech: "TypeScript,chakra-ui,java,mySQL",
     },
@@ -81,20 +81,23 @@ const Project = () => {
                       }}
                     />
                   </a>
-                  <a
-                    href={prices.repolink}
-                    className="btn btn-outline"
-                    id="descShow"
-                    target="_blank"
-                  >
-                    <FaGithub
-                      style={{
-                        fontSize: "25px",
-                        paddingTop: "5px",
-                        color: "white",
-                      }}
-                    />
-                  </a>
+                  {prices.repolink && 
+                      <a
+                      href={prices.repolink}
+                      className="btn btn-outline"
+                      id="descShow"
+                      target="_blank"
+                    >
+                      <FaGithub
+                        style={{
+                          fontSize: "25px",
+                          paddingTop: "5px",
+                          color: "white",
+                        }}
+                      />
+                    </a>
+                  }
+                 
                 </div>
               </div>
             </div>
