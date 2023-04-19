@@ -570,6 +570,16 @@ html {
    width: 120%;
     background: #070707;
   }
+  .img2 {
+    max-width: 100%;
+  }
+  /* .header__content {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+  } */
 }
 
 @media only screen and (min-width: 765px) and (max-width: 1024px) {

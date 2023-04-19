@@ -14,21 +14,21 @@ const Nav = () => {
           </ul>
           {state ? (
             <ul className="navbar__right">
-              <li>
+              <li onClick={() => setState(!state)}>
                 <a href="#Banner">Home</a>
               </li>
 
-              <li>
+              <li onClick={() => setState(!state)}>
                 <a href="#About">About</a>
-              </li>
-              <li>
+              </li >
+              <li onClick={() => setState(!state)}>
                 <a href="#Skills">Skills</a>
               </li>
-              <li>
+              <li onClick={() => setState(!state)}>
                 <a href="#Projects">Projects</a>
               </li>
 
-              <li>
+              <li onClick={() => setState(!state)}>
                 <a href="#Contact">Contact</a>
               </li>
             </ul>
