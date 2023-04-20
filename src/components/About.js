@@ -29,7 +29,7 @@ const About = () => {
               <div className="header__buttons_myBtn">
                 <div>
                 <a
-                  href="https://drive.google.com/file/d/1H4XVZa8C9XQUqxCri67P_44aizNtYYwt/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1XmX9tDEr-h6YFzQPzy7xSc-73BXUDMue/view?usp=sharing"
                   target="_blank"
                  
                   className="btn btn-outline"
@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                 <div>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1H4XVZa8C9XQUqxCri67P_44aizNtYYwt"
+                  href="https://drive.google.com/uc?export=download&id=1XmX9tDEr-h6YFzQPzy7xSc-73BXUDMue"
                   className="btn btn-outline"
                 >
                   Download Resume
